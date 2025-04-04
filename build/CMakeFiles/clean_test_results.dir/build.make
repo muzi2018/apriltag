@@ -53,10 +53,10 @@ RM = /opt/cmake-3.30.0-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/catkin_apritag/src
+CMAKE_SOURCE_DIR = /home/wang/catkin_apriltag/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/catkin_apritag/build
+CMAKE_BINARY_DIR = /home/wang/catkin_apriltag/build
 
 # Utility rule file for clean_test_results.
 
@@ -67,7 +67,7 @@ include CMakeFiles/clean_test_results.dir/compiler_depend.make
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/wang/catkin_apritag/build/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/wang/catkin_apriltag/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/wang/catkin_apritag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/catkin_apritag/src /home/wang/catkin_apritag/src /home/wang/catkin_apritag/build /home/wang/catkin_apritag/build /home/wang/catkin_apritag/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/wang/catkin_apriltag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/catkin_apriltag/src /home/wang/catkin_apriltag/src /home/wang/catkin_apriltag/build /home/wang/catkin_apriltag/build /home/wang/catkin_apriltag/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

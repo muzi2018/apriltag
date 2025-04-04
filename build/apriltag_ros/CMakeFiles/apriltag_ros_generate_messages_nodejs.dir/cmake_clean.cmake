@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/wang/catkin_apritag/devel/share/gennodejs/ros/apriltag_ros/msg/AprilTagDetection.js"
-  "/home/wang/catkin_apritag/devel/share/gennodejs/ros/apriltag_ros/msg/AprilTagDetectionArray.js"
-  "/home/wang/catkin_apritag/devel/share/gennodejs/ros/apriltag_ros/srv/AnalyzeSingleImage.js"
+  "/home/wang/catkin_apriltag/devel/share/gennodejs/ros/apriltag_ros/msg/AprilTagDetection.js"
+  "/home/wang/catkin_apriltag/devel/share/gennodejs/ros/apriltag_ros/msg/AprilTagDetectionArray.js"
+  "/home/wang/catkin_apriltag/devel/share/gennodejs/ros/apriltag_ros/srv/AnalyzeSingleImage.js"
   "CMakeFiles/apriltag_ros_generate_messages_nodejs"
 )
 

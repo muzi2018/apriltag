@@ -1,4 +1,4 @@
-prefix=/home/wang/catkin_apritag/install
+prefix=/home/wang/catkin_apriltag/install
 
 Name: apriltag_ros
 Description: Description of apriltag_ros

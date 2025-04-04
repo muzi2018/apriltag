@@ -21,7 +21,7 @@
 #   ]
 standalone_tags:
   [
-    {id: 0, size: 0.1, name: "Tag_0"},
+    {id: 0, size: 0.2, name: "Tag_0"}
   ]
 # ## Tag bundle definitions
 # ### Remarks
@@ -47,3 +47,4 @@ standalone_tags:
 tag_bundles:
   [
   ]
+

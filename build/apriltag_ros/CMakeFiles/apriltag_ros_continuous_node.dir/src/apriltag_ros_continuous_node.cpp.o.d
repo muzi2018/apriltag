@@ -1,5 +1,5 @@
 apriltag_ros/CMakeFiles/apriltag_ros_continuous_node.dir/src/apriltag_ros_continuous_node.cpp.o: \
- /home/wang/catkin_apritag/src/apriltag_ros/src/apriltag_ros_continuous_node.cpp \
+ /home/wang/catkin_apriltag/src/apriltag_ros/src/apriltag_ros_continuous_node.cpp \
  /usr/include/stdc-predef.h /opt/ros/noetic/include/ros/ros.h \
  /opt/ros/noetic/include/ros/time.h \
  /opt/ros/noetic/include/ros/platform.h /usr/include/c++/9/stdlib.h \

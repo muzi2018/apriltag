@@ -1,8 +1,8 @@
 apriltag_ros/CMakeFiles/apriltag_ros_continuous_detector.dir/src/continuous_detector.cpp.o: \
- /home/wang/catkin_apritag/src/apriltag_ros/src/continuous_detector.cpp \
+ /home/wang/catkin_apriltag/src/apriltag_ros/src/continuous_detector.cpp \
  /usr/include/stdc-predef.h \
- /home/wang/catkin_apritag/src/apriltag_ros/include/apriltag_ros/continuous_detector.h \
- /home/wang/catkin_apritag/src/apriltag_ros/include/apriltag_ros/common_functions.h \
+ /home/wang/catkin_apriltag/src/apriltag_ros/include/apriltag_ros/continuous_detector.h \
+ /home/wang/catkin_apriltag/src/apriltag_ros/include/apriltag_ros/common_functions.h \
  /usr/include/c++/9/string \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -1754,10 +1754,10 @@ apriltag_ros/CMakeFiles/apriltag_ros_continuous_detector.dir/src/continuous_dete
  /opt/ros/noetic/include/apriltag/common/timeprofile.h \
  /opt/ros/noetic/include/apriltag/common/time_util.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
- /home/wang/catkin_apritag/devel/include/apriltag_ros/AprilTagDetection.h \
+ /home/wang/catkin_apriltag/devel/include/apriltag_ros/AprilTagDetection.h \
  /opt/ros/noetic/include/geometry_msgs/PoseWithCovarianceStamped.h \
  /opt/ros/noetic/include/geometry_msgs/PoseWithCovariance.h \
- /home/wang/catkin_apritag/devel/include/apriltag_ros/AprilTagDetectionArray.h \
+ /home/wang/catkin_apriltag/devel/include/apriltag_ros/AprilTagDetectionArray.h \
  /opt/ros/noetic/include/nodelet/nodelet.h \
  /opt/ros/noetic/include/nodelet/nodeletdecl.h \
  /opt/ros/noetic/include/nodelet/exception.h \

@@ -53,10 +53,10 @@ RM = /opt/cmake-3.30.0-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/catkin_apritag/src
+CMAKE_SOURCE_DIR = /home/wang/catkin_apriltag/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/catkin_apritag/build
+CMAKE_BINARY_DIR = /home/wang/catkin_apriltag/build
 
 # Utility rule file for tf2_msgs_generate_messages_eus.
 
@@ -74,10 +74,10 @@ apriltag_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build: tf2_msgs_gener
 .PHONY : apriltag_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 
 apriltag_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean:
-	cd /home/wang/catkin_apritag/build/apriltag_ros && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/wang/catkin_apriltag/build/apriltag_ros && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : apriltag_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean
 
 apriltag_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend:
-	cd /home/wang/catkin_apritag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/catkin_apritag/src /home/wang/catkin_apritag/src/apriltag_ros /home/wang/catkin_apritag/build /home/wang/catkin_apritag/build/apriltag_ros /home/wang/catkin_apritag/build/apriltag_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/wang/catkin_apriltag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/catkin_apriltag/src /home/wang/catkin_apriltag/src/apriltag_ros /home/wang/catkin_apriltag/build /home/wang/catkin_apriltag/build/apriltag_ros /home/wang/catkin_apriltag/build/apriltag_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : apriltag_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend
 

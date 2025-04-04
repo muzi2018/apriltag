@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/wang/catkin_apritag/devel/share/roseus/ros/apriltag_ros/manifest.l"
-  "/home/wang/catkin_apritag/devel/share/roseus/ros/apriltag_ros/msg/AprilTagDetection.l"
-  "/home/wang/catkin_apritag/devel/share/roseus/ros/apriltag_ros/msg/AprilTagDetectionArray.l"
-  "/home/wang/catkin_apritag/devel/share/roseus/ros/apriltag_ros/srv/AnalyzeSingleImage.l"
+  "/home/wang/catkin_apriltag/devel/share/roseus/ros/apriltag_ros/manifest.l"
+  "/home/wang/catkin_apriltag/devel/share/roseus/ros/apriltag_ros/msg/AprilTagDetection.l"
+  "/home/wang/catkin_apriltag/devel/share/roseus/ros/apriltag_ros/msg/AprilTagDetectionArray.l"
+  "/home/wang/catkin_apriltag/devel/share/roseus/ros/apriltag_ros/srv/AnalyzeSingleImage.l"
   "CMakeFiles/apriltag_ros_generate_messages_eus"
 )
 

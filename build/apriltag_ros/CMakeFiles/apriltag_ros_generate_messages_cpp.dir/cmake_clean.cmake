@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/wang/catkin_apritag/devel/include/apriltag_ros/AnalyzeSingleImage.h"
-  "/home/wang/catkin_apritag/devel/include/apriltag_ros/AprilTagDetection.h"
-  "/home/wang/catkin_apritag/devel/include/apriltag_ros/AprilTagDetectionArray.h"
+  "/home/wang/catkin_apriltag/devel/include/apriltag_ros/AnalyzeSingleImage.h"
+  "/home/wang/catkin_apriltag/devel/include/apriltag_ros/AprilTagDetection.h"
+  "/home/wang/catkin_apriltag/devel/include/apriltag_ros/AprilTagDetectionArray.h"
   "CMakeFiles/apriltag_ros_generate_messages_cpp"
 )
 

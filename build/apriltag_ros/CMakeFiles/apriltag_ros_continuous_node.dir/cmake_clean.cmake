@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/wang/catkin_apritag/devel/lib/apriltag_ros/apriltag_ros_continuous_node"
-  "/home/wang/catkin_apritag/devel/lib/apriltag_ros/apriltag_ros_continuous_node.pdb"
+  "/home/wang/catkin_apriltag/devel/lib/apriltag_ros/apriltag_ros_continuous_node"
+  "/home/wang/catkin_apriltag/devel/lib/apriltag_ros/apriltag_ros_continuous_node.pdb"
   "CMakeFiles/apriltag_ros_continuous_node.dir/src/apriltag_ros_continuous_node.cpp.o"
   "CMakeFiles/apriltag_ros_continuous_node.dir/src/apriltag_ros_continuous_node.cpp.o.d"
 )

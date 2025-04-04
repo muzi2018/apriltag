@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/wang/catkin_apritag/devel/lib/libapriltag_ros_common.pdb"
-  "/home/wang/catkin_apritag/devel/lib/libapriltag_ros_common.so"
+  "/home/wang/catkin_apriltag/devel/lib/libapriltag_ros_common.pdb"
+  "/home/wang/catkin_apriltag/devel/lib/libapriltag_ros_common.so"
   "CMakeFiles/apriltag_ros_common.dir/src/common_functions.cpp.o"
   "CMakeFiles/apriltag_ros_common.dir/src/common_functions.cpp.o.d"
 )

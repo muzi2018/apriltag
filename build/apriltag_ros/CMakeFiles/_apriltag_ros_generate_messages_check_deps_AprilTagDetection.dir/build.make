@@ -53,10 +53,10 @@ RM = /opt/cmake-3.30.0-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/catkin_apritag/src
+CMAKE_SOURCE_DIR = /home/wang/catkin_apriltag/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/catkin_apritag/build
+CMAKE_BINARY_DIR = /home/wang/catkin_apriltag/build
 
 # Utility rule file for _apriltag_ros_generate_messages_check_deps_AprilTagDetection.
 
@@ -67,7 +67,7 @@ include apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_April
 include apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/progress.make
 
 apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection:
-	cd /home/wang/catkin_apritag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py apriltag_ros /home/wang/catkin_apritag/src/apriltag_ros/msg/AprilTagDetection.msg geometry_msgs/Pose:std_msgs/Header:geometry_msgs/PoseWithCovarianceStamped:geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/PoseWithCovariance
+	cd /home/wang/catkin_apriltag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py apriltag_ros /home/wang/catkin_apriltag/src/apriltag_ros/msg/AprilTagDetection.msg geometry_msgs/Point:std_msgs/Header:geometry_msgs/PoseWithCovariance:geometry_msgs/PoseWithCovarianceStamped:geometry_msgs/Quaternion:geometry_msgs/Pose
 
 _apriltag_ros_generate_messages_check_deps_AprilTagDetection: apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection
 _apriltag_ros_generate_messages_check_deps_AprilTagDetection: apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/build.make
@@ -78,10 +78,10 @@ apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetec
 .PHONY : apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/build
 
 apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/clean:
-	cd /home/wang/catkin_apritag/build/apriltag_ros && $(CMAKE_COMMAND) -P CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/cmake_clean.cmake
+	cd /home/wang/catkin_apriltag/build/apriltag_ros && $(CMAKE_COMMAND) -P CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/cmake_clean.cmake
 .PHONY : apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/clean
 
 apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/depend:
-	cd /home/wang/catkin_apritag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/catkin_apritag/src /home/wang/catkin_apritag/src/apriltag_ros /home/wang/catkin_apritag/build /home/wang/catkin_apritag/build/apriltag_ros /home/wang/catkin_apritag/build/apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/wang/catkin_apriltag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/catkin_apriltag/src /home/wang/catkin_apriltag/src/apriltag_ros /home/wang/catkin_apriltag/build /home/wang/catkin_apriltag/build/apriltag_ros /home/wang/catkin_apriltag/build/apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : apriltag_ros/CMakeFiles/_apriltag_ros_generate_messages_check_deps_AprilTagDetection.dir/depend
 

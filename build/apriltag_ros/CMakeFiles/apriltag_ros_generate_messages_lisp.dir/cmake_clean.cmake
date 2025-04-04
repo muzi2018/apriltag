@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/wang/catkin_apritag/devel/share/common-lisp/ros/apriltag_ros/msg/AprilTagDetection.lisp"
-  "/home/wang/catkin_apritag/devel/share/common-lisp/ros/apriltag_ros/msg/AprilTagDetectionArray.lisp"
-  "/home/wang/catkin_apritag/devel/share/common-lisp/ros/apriltag_ros/srv/AnalyzeSingleImage.lisp"
+  "/home/wang/catkin_apriltag/devel/share/common-lisp/ros/apriltag_ros/msg/AprilTagDetection.lisp"
+  "/home/wang/catkin_apriltag/devel/share/common-lisp/ros/apriltag_ros/msg/AprilTagDetectionArray.lisp"
+  "/home/wang/catkin_apriltag/devel/share/common-lisp/ros/apriltag_ros/srv/AnalyzeSingleImage.lisp"
   "CMakeFiles/apriltag_ros_generate_messages_lisp"
 )
 

@@ -53,10 +53,10 @@ RM = /opt/cmake-3.30.0-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/catkin_apritag/src
+CMAKE_SOURCE_DIR = /home/wang/catkin_apriltag/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/catkin_apritag/build
+CMAKE_BINARY_DIR = /home/wang/catkin_apriltag/build
 
 # Utility rule file for apriltag_ros_generate_messages_py.
 
@@ -66,70 +66,70 @@ include apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/compiler_d
 # Include the progress variables for this target.
 include apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/progress.make
 
-apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py
-apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py
-apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py
-apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py
-apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py
+apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py
+apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py
+apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py
+apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py
+apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py
 
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /home/wang/catkin_apritag/src/apriltag_ros/msg/AprilTagDetection.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wang/catkin_apritag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG apriltag_ros/AprilTagDetection"
-	cd /home/wang/catkin_apritag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/wang/catkin_apritag/src/apriltag_ros/msg/AprilTagDetection.msg -Iapriltag_ros:/home/wang/catkin_apritag/src/apriltag_ros/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p apriltag_ros -o /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /home/wang/catkin_apriltag/src/apriltag_ros/msg/AprilTagDetection.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wang/catkin_apriltag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG apriltag_ros/AprilTagDetection"
+	cd /home/wang/catkin_apriltag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/wang/catkin_apriltag/src/apriltag_ros/msg/AprilTagDetection.msg -Iapriltag_ros:/home/wang/catkin_apriltag/src/apriltag_ros/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p apriltag_ros -o /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg
 
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /home/wang/catkin_apritag/src/apriltag_ros/msg/AprilTagDetectionArray.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /home/wang/catkin_apritag/src/apriltag_ros/msg/AprilTagDetection.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wang/catkin_apritag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG apriltag_ros/AprilTagDetectionArray"
-	cd /home/wang/catkin_apritag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/wang/catkin_apritag/src/apriltag_ros/msg/AprilTagDetectionArray.msg -Iapriltag_ros:/home/wang/catkin_apritag/src/apriltag_ros/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p apriltag_ros -o /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /home/wang/catkin_apriltag/src/apriltag_ros/msg/AprilTagDetectionArray.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /home/wang/catkin_apriltag/src/apriltag_ros/msg/AprilTagDetection.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wang/catkin_apriltag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG apriltag_ros/AprilTagDetectionArray"
+	cd /home/wang/catkin_apriltag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/wang/catkin_apriltag/src/apriltag_ros/msg/AprilTagDetectionArray.msg -Iapriltag_ros:/home/wang/catkin_apriltag/src/apriltag_ros/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p apriltag_ros -o /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg
 
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wang/catkin_apritag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for apriltag_ros"
-	cd /home/wang/catkin_apritag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg --initpy
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wang/catkin_apriltag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for apriltag_ros"
+	cd /home/wang/catkin_apriltag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg --initpy
 
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /home/wang/catkin_apritag/src/apriltag_ros/srv/AnalyzeSingleImage.srv
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /home/wang/catkin_apritag/src/apriltag_ros/msg/AprilTagDetectionArray.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /home/wang/catkin_apritag/src/apriltag_ros/msg/AprilTagDetection.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wang/catkin_apritag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV apriltag_ros/AnalyzeSingleImage"
-	cd /home/wang/catkin_apritag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/wang/catkin_apritag/src/apriltag_ros/srv/AnalyzeSingleImage.srv -Iapriltag_ros:/home/wang/catkin_apritag/src/apriltag_ros/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p apriltag_ros -o /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /home/wang/catkin_apriltag/src/apriltag_ros/srv/AnalyzeSingleImage.srv
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /home/wang/catkin_apriltag/src/apriltag_ros/msg/AprilTagDetection.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /home/wang/catkin_apriltag/src/apriltag_ros/msg/AprilTagDetectionArray.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wang/catkin_apriltag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV apriltag_ros/AnalyzeSingleImage"
+	cd /home/wang/catkin_apriltag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/wang/catkin_apriltag/src/apriltag_ros/srv/AnalyzeSingleImage.srv -Iapriltag_ros:/home/wang/catkin_apriltag/src/apriltag_ros/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p apriltag_ros -o /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv
 
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py
-/home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wang/catkin_apritag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python srv __init__.py for apriltag_ros"
-	cd /home/wang/catkin_apritag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv --initpy
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py
+/home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wang/catkin_apriltag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python srv __init__.py for apriltag_ros"
+	cd /home/wang/catkin_apriltag/build/apriltag_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv --initpy
 
 apriltag_ros_generate_messages_py: apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py
-apriltag_ros_generate_messages_py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py
-apriltag_ros_generate_messages_py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py
-apriltag_ros_generate_messages_py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py
-apriltag_ros_generate_messages_py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py
-apriltag_ros_generate_messages_py: /home/wang/catkin_apritag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py
+apriltag_ros_generate_messages_py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py
+apriltag_ros_generate_messages_py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py
+apriltag_ros_generate_messages_py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py
+apriltag_ros_generate_messages_py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py
+apriltag_ros_generate_messages_py: /home/wang/catkin_apriltag/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py
 apriltag_ros_generate_messages_py: apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/build.make
 .PHONY : apriltag_ros_generate_messages_py
 
@@ -138,10 +138,10 @@ apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/build: apriltag_ro
 .PHONY : apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/build
 
 apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/clean:
-	cd /home/wang/catkin_apritag/build/apriltag_ros && $(CMAKE_COMMAND) -P CMakeFiles/apriltag_ros_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/wang/catkin_apriltag/build/apriltag_ros && $(CMAKE_COMMAND) -P CMakeFiles/apriltag_ros_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/clean
 
 apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/depend:
-	cd /home/wang/catkin_apritag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/catkin_apritag/src /home/wang/catkin_apritag/src/apriltag_ros /home/wang/catkin_apritag/build /home/wang/catkin_apritag/build/apriltag_ros /home/wang/catkin_apritag/build/apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/wang/catkin_apriltag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/catkin_apriltag/src /home/wang/catkin_apriltag/src/apriltag_ros /home/wang/catkin_apriltag/build /home/wang/catkin_apriltag/build/apriltag_ros /home/wang/catkin_apriltag/build/apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : apriltag_ros/CMakeFiles/apriltag_ros_generate_messages_py.dir/depend
 
